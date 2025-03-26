@@ -17,7 +17,19 @@
   to = "/_next/image*"
   status = 200
 
-# Handle client-side routing and SPA functionality
+# Handle API routes
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/nextjs-api/:splat"
+  status = 200
+
+# Better handling for Next.js routes
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/nextjs"
+  status = 200
+
+# Fallback for static site functionality
 [[redirects]]
   from = "/*"
   to = "/index.html"
