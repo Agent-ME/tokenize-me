@@ -165,10 +165,10 @@ export default function ContactPage() {
                   <h3 className="text-2xl font-bold mb-2">Email Us</h3>
                   <p className="text-accent-500 mb-4">For inquiries about launching your token:</p>
                   <a 
-                    href="mailto:support@tokenizeme.com" 
+                    href="mailto:hello@tokenizeme.ai" 
                     className="text-2xl font-medium text-primary hover:underline"
                   >
-                    support@tokenizeme.com
+                    hello@tokenizeme.ai
                   </a>
                   <p className="text-accent-400 mt-6">
                     Our team is available 24/7 to assist you with any questions you may have.

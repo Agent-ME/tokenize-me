@@ -31,8 +31,8 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-xl font-heading font-bold mb-2">Email Us</h3>
-                <a href="mailto:support@tokenizeme.com" className="text-lg font-medium text-primary hover:underline">
-                  support@tokenizeme.com
+                <a href="mailto:hello@tokenizeme.ai" className="text-lg font-medium text-primary hover:underline">
+                  hello@tokenizeme.ai
                 </a>
                 <p className="text-sm text-accent-400 mt-1">Response within 24 hours</p>
               </div>
