@@ -13,7 +13,7 @@ export default function SocialBar() {
       transition={{ duration: 0.5 }}
     >
       <a
-        href="https://x.com/TokenizeMe"
+        href="https://x.com/TokenizeMe_"
         target="_blank"
         rel="noopener noreferrer"
         className="group"
